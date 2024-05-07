@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color:  #d6e1ff;
+    font-family:" Red Hat" ,sans-serif;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+    border-radius: 12px;
+}
+
+
+.card{
+    width: 312px;
+    background-color: white;
+    gap: 1.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.card-title{
+    color:  hsl(223, 47%, 23%);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-subtitle{
+    color:   hsl(224, 23%, 55%);
+    font-size: 1rem;
+    width: 80%;
+    margin: auto;
+    line-height: 1.5rem;
+    font-weight: 500;
+}
+
+
+.music-info{
+    background-color: hsl(225, 100%, 98%);
+    width: 90%;
+    justify-content: space-between;
+    margin: auto;
+    border-radius: 15px;
+    padding: 1rem;
+}
+
+.song-info{
+    margin-left: -1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.song-info :first-child{
+    color:hsl(223, 47%, 23%); ;
+    font-weight: bold;
+}
+.song-info :last-child{
+    color:   hsl(224, 23%, 55%);
+}
+
+a{
+    font-weight: bold;
+    font-size: .9rem;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.button{
+    width: 90%;
+    margin: auto;
+    padding: .8rem .5rem;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+    color: white ;
+    background-color: #382ae1;
+    box-shadow: 0 0 15px #382ae1;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.button:hover{
+    background-color:#766cf1 ;
+  
+}
+
+
+
+.cancel-order-btn{
+    padding-bottom: 2rem;
+    font-weight: bold;
+     color :hsl(224, 23%, 55%);
+     cursor: pointer;
+}
